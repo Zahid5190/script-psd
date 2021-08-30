@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6c757d;
+    font-family: 'Lato', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2D3950;
+}
+
+.header{
+    background-color: #f6f9f9;
+}
+
+.banner{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hg{
+    min-height: 92vh;
+}
+
+.banner h1{
+
+color: #fff;
+
+text-align: center;
+
+font-size: 80px;
+
+font-family: 'Lato', sans-serif;
+}
+
+.banner span{
+
+display: block;
+
+/* border: 1px solid #2d3950; */
+
+/* height: 50%; */
+
+/* width: 100%; */
+
+height: -38px;
+
+/* height: 1px; */
+
+height: 2px;
+
+width: 100%;
+
+background: #15a4fa;
+}
+
+.banner p{
+
+font-size: 20px;
+
+color: #fff;
+
+text-align: center;
+
+font-family: 'Lato', sans-serif;
+
+margin-top: 20px;
+}
+
+.banner .btn-custom{
+    
+border-radius: 0px;
+    
+color: #fff;
+    
+padding: 10px 20px;
+    
+/* text-align: center; */
+    
+/* text-transform: uppercase; */
+    
+margin-top: 25px;
+    
+font-family: 'Lato', sans-serif;
+    
+/* font-size: 16px; */
+    
+border: 2px solid #15a4fa;
+    
+transition: 0.4s all ease-out;
+    
+text-transform: capitalize;
+}
+
+.banner .btn-custom:hover{
+    background-color: #15a4fa;
+    
+    color: #fff;
+    
+    
+}
+
+.icon{
+    
+color: #fff;
+    
+font-size: 20px;
+    
+position: absolute;
+    
+top: 75%;
+    
+left: 50%;
+    
+transform: translateX(-50%);
+animation: mymove 1s linear infinite;
+animation-direction: alternate;
+}
+
+@keyframes mymove{
+    0%{
+        top:75%;
+    }
+    100%{
+        top: 85%;
+    }
+
+    
+    
+}
+
+.about{background-color: #f6f9f9;}
+
+.about .sec_first{
+
+}
+
+.about .sec_first h1{
+
+color: #2d3950;
+
+font-size: 40px;
+
+font-family: 'Lato';
+
+/* margin-top: 55px; */
+
+margin-bottom: 15px;
+}
+
+.about .sec_first p{
+    
+font-size: 20px;
+    
+color: #999999;
+    
+/* margin-top: 20px; */
+}
+
+.ct{
+    
+width: 89%;
+}
+
+.features{
+
+}
+
+.features h1{
+
+font-size: 30px;
+
+color: #2d3950;
+
+font-family: 'Lato';
+
+margin: auto;
+
+margin-top: 10px;
+
+margin-bottom: 10px;
+}
+
+.features p{
+
+font-size: 20px;
+
+/* width: 72%; */
+
+color: #a2a0a8;
+
+font-family: 'Lato';
+}
+
+.icon-box{
+    
+font-size: 50px;
+    
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,48baff+50,48baff+50,48baff+50,48baff+50,48baff+50,48baff+50,5fc3ff+50,1e5799+50,1e5799+50,48baff+50,48baff+50,5fc3ff+50 */
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(left,  #7db9e8 0%, #48baff 50%, #48baff 50%, #48baff 50%, #48baff 50%, #48baff 50%, #48baff 50%, #5fc3ff 50%, #1e5799 50%, #1e5799 50%, #48baff 50%, #48baff 50%, #5fc3ff 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #7db9e8 0%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#5fc3ff 50%,#1e5799 50%,#1e5799 50%,#48baff 50%,#48baff 50%,#5fc3ff 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #7db9e8 0%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#5fc3ff 50%,#1e5799 50%,#1e5799 50%,#48baff 50%,#48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+/* height: 35%; */
+    
+/* padding: 50px; */
+    
+/* width: 20%; */
+    
+/* text-align: center; */
+    
+height: 80px;
+    
+width: 80px;
+    
+margin: auto;
+}
+
+.sa{
+    
+/* border: 1px solid whitesmoke; */
+}
+
+.sa:hover{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+
+}
+
+.gallery{
+    background-color: #f6f9f9;
+}
+
+.gallery h1{
+
+font-size: 40px;
+
+font-family: 'Lato';
+
+color: color: #2d3950;
+}
+
+.gallery p{
+
+font-size: 20px;
+
+font-family: 'Lato';
+
+color: #a2a0a8;
+}
+
+.gallery1{
+ position: relative;
+}
+
+.gallery1 img{
+    width: 100%;
+    
+}
+
+.gallery1::before{
+    
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    background: #28a9f7;
+    transition: .4s all ease-in-out;
+    
+}
+
+.gallery1:hover::before{
+    
+    opacity: .6;
+    width: 100%;
+  
+}
+
+.icon-list{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+opacity: 0;
+}
+
+.icon-list ul{
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+display: flex;
+}
+
+.icon-list ul li{
+    
+width: 50px;
+    
+height: 50px;
+    
+border: 1px solid #fff;
+    
+text-align: center;
+    
+line-height: 50px;
+    
+margin-left: 10px;
+    
+color: #fff;
+    
+border-radius: 5px;
+    
+font-size: 25px;
+}
+
+.gallery1:hover .icon-list{
+    opacity: 1;
+}
+
+.contact{
+    background-image: url(../img/signup.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2d3950;
+    opacity: .8;
+}
+
+.contact h1{
+
+color: #fff;
+
+font-size: 41px;
+
+text-transform: capitalize;
+
+font-family: 'Lato';
+}
+
+.contact p{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+font-family: 'Lato';
+}
+
+form{
+    text-align: end;
+}
+
+.form-content{
+ text-align: end;
+ position: absolute;
+}
+
+.form-content input{
+
+}
+
+form input[type="submit"]{
+    
+background: transparent;
+    
+border: 2px solid #1b8ed5;
+    
+padding: 10px 20px;
+    
+color: #fff;
+    
+font-size: 18px;
+    
+margin-top: 5px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+form input[type="submit"]:hover{
+    background-color: #1b8ed5;
+
+    
+
+}
+.contact-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.foot-part{
+
+}
+
+.foot-part ul{
+
+list-style: none;
+}
+.foot-part ul li{
+    
+font-size: 18px;
+    
+font-family: 'Lato';
+    
+color: #bbbcbc;
+}
+
+.foot-part .icons{
+}
+
+.foot-part .icons ul{
+
+display: flex;
+
+justify-content: flex-end;
+
+/* color: #fff; */
+
+/* background-color: #15a4fa; */
+}
+
+.foot-part .icons ul li{
+
+font-size: 25px;
+
+color: #fff;
+
+background-color: #15a4fa;
+
+margin-left: 10px;
+
+padding: 5px 10px;
+
+border-radius: 2px;
+}
+
+.foot{
+}
+
+.foot ul{
+
+display: flex;
+
+justify-content: flex-end;
+}
+
+.foot ul li{
+    
+margin-left: 12px;
+    
+width: 50px;
+    
+height: 50px;
+    
+font-size: 25px;
+    
+/* border-radius: 2px; */
+    
+border: 1px solid #15a4fa;
+    
+padding: 5px 10px;
+    
+background: #15a4fa;
+    
+color: #fff;
+}
